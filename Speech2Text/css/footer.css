@@ -1,0 +1,17 @@
+footer{
+  background: #24292D;
+  padding: 15px 0;
+  text-align: center;
+}
+footer .footer-content span{
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--white);
+}
+footer .footer-content span a{
+  font-weight: 500;
+  color: var(--white);
+}
+footer .footer-content span a:hover{
+  text-decoration: underline;
+}

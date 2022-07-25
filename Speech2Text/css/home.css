@@ -1,0 +1,52 @@
+.home-content{
+    height: 81.5vh;
+    width: 100%;
+    background: var(--light-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .home-content h2{
+    color: var(--black);
+    font-size: 30px;
+  }
+  .home-content .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 85%;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .inputBx{
+    display: flex;
+  }
+  .inputBx input{
+    padding: 10px ;
+    border: none;
+    box-shadow:  0 0 4px rgba(0,0,0,.4);
+    outline: none;
+    width: 300px;
+    font-size: 16px;
+    text-align: right;
+  }
+  .inputBx .icon{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    box-shadow:  0 0 4px rgba(0,0,0,.4);
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--nav-main);
+  }
+  .inputBx .icon i{
+    pointer-events: none;
+  }

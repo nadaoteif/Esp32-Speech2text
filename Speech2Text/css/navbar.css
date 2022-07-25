@@ -1,0 +1,21 @@
+nav{
+    height: 70px;
+    width: 100%;
+    background: var(--nav-main);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  nav .navbar{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 30px;
+    justify-content: space-between;
+    float: right;
+  }
+  nav .navbar .logo{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--white);
+  }

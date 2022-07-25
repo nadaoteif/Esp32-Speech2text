@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&display=swap');
+@import url('./navbar.css');
+@import url('./home.css');
+@import url('./footer.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cairo', sans-serif;
+  transition: all 0.3s ease;
+}
+:root{
+  --white: #fff;
+  --black: #24292d;
+  --nav-main: #176C7C;
+  --switchers-main: #1f7586;
+  --light-bg: #F0F8FF;
+}
